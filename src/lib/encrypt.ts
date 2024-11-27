@@ -1,8 +1,8 @@
-import path from "node:path";
-import fs from "node:fs";
 import crypto from "node:crypto";
-import { generateKey, isValidImage, createLogger } from "./utils.ts";
+import fs from "node:fs";
+import path from "node:path";
 import sharp from "sharp";
+import { createLogger, generateKey, isValidImage } from "./utils.ts";
 
 export const encryptImage = async (
 	inputPath: string,

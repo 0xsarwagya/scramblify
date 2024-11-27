@@ -1,6 +1,6 @@
-import winston, { type Logger } from "winston";
 import crypto from "node:crypto";
 import sharp from "sharp";
+import winston, { type Logger } from "winston";
 
 /**
  * Generates a key using the provided password.

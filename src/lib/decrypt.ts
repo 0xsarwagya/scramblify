@@ -1,8 +1,8 @@
-import path from "node:path";
-import fs from "node:fs";
 import crypto from "node:crypto";
-import { generateKey, createLogger } from "./utils.ts";
+import fs from "node:fs";
+import path from "node:path";
 import sharp from "sharp";
+import { createLogger, generateKey } from "./utils.ts";
 
 // Decrypt gibberish image back to original image format
 export const decryptImage = async (

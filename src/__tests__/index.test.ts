@@ -1,8 +1,8 @@
-import path from "node:path";
-import fs from "node:fs/promises";
-import { decryptImage, encryptImage } from "../index.ts";
-import { test } from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs/promises";
+import path from "node:path";
+import { test } from "node:test";
+import { decryptImage, encryptImage } from "../index.ts";
 
 // Utility function to create temporary files and directories for testing
 const setupTestEnv = async () => {
