@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+prisma/
+.github/
+docs/
+scripts/
+src/__tests__/
